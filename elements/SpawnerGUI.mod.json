@@ -1,0 +1,112 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Spawn a YouTuber!",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Spawn a YouTuber!",
+          "x": 172,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon TommyInnit",
+          "onClick": {
+            "name": "SpawnTommyinnit"
+          },
+          "width": 110,
+          "height": 20,
+          "name": "Summon TommyInnit",
+          "x": 158,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon TurquoiseTNT",
+          "onClick": {
+            "name": "SpawnTurquoiseTNT"
+          },
+          "width": 120,
+          "height": 20,
+          "name": "Summon TurquoiseTNT",
+          "x": 154,
+          "y": 82
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Tubbo",
+          "onClick": {
+            "name": "SpawnTubbo"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Summon Tubbo",
+          "x": 170,
+          "y": 105
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Shalz",
+          "onClick": {
+            "name": "SpawnShalz"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Summon Shalz",
+          "x": 170,
+          "y": 126
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Dream",
+          "onClick": {
+            "name": "SpawnDream"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Summon Dream",
+          "x": 170,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "SpawnerPage2"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 265,
+          "y": 177
+        }
+      }
+    ]
+  }
+}

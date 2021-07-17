@@ -1,0 +1,56 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Spawn a YouTuber!",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Spawn a YouTuber!",
+          "x": 172,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "SpawnerPage1"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 130,
+          "y": 177
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon DanTDM",
+          "onClick": {
+            "name": "SpawnDanTDM"
+          },
+          "width": 90,
+          "height": 20,
+          "name": "Summon DanTDM",
+          "x": 168,
+          "y": 58
+        }
+      }
+    ]
+  }
+}

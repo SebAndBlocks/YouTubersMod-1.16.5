@@ -50,6 +50,20 @@
           "x": 168,
           "y": 58
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon WilburSoot",
+          "onClick": {
+            "name": "SpawnWilburSoot"
+          },
+          "width": 110,
+          "height": 20,
+          "name": "Summon WilburSoot",
+          "x": 158,
+          "y": 81
+        }
       }
     ]
   }

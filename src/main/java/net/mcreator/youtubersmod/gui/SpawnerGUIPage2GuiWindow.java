@@ -95,5 +95,11 @@ public class SpawnerGUIPage2GuiWindow extends ContainerScreen<SpawnerGUIPage2Gui
 				SpawnerGUIPage2Gui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
+		this.addButton(new Button(this.guiLeft + 32, this.guiTop + 44, 110, 20, new StringTextComponent("Summon WilburSoot"), e -> {
+			if (true) {
+				YoutubersmodMod.PACKET_HANDLER.sendToServer(new SpawnerGUIPage2Gui.ButtonPressedMessage(2, x, y, z));
+				SpawnerGUIPage2Gui.handleButtonAction(entity, 2, x, y, z);
+			}
+		}));
 	}
 }

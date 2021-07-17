@@ -23,6 +23,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.youtubersmod.procedures.SpawnerPage1Procedure;
+import net.mcreator.youtubersmod.procedures.SpawnWilburSootProcedure;
 import net.mcreator.youtubersmod.procedures.SpawnDanTDMProcedure;
 import net.mcreator.youtubersmod.YoutubersmodModElements;
 
@@ -195,6 +196,16 @@ public class SpawnerGUIPage2Gui extends YoutubersmodModElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				SpawnDanTDMProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SpawnWilburSootProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

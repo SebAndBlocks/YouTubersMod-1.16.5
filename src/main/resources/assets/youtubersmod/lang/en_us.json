@@ -1,6 +1,7 @@
 {
   "itemGroup.tabyou_tubers": "YouTubers",
   "entity.youtubersmod.tommyinnit": "Tommyinnit",
+  "fluid.tommyinnits_coke": "TommyInnitsCoke",
   "item.youtubersmod.dan_tdm_spawn_egg": "DanTDM Spawn Egg",
   "entity.youtubersmod.shalz_69": "Shalz69",
   "entity.youtubersmod.wilbur_soot": "WilburSoot",
@@ -14,6 +15,7 @@
   "entity.youtubersmod.turquoise_tnt": "TurquoiseTNT",
   "item.youtubersmod.tubbo_spawn_egg": "Tubbo_ Spawn Egg",
   "item.youtubersmod.wilbur_soot_spawn_egg": "WilburSoot Spawn Egg",
+  "item.youtubersmod.tommyinnits_coke_bucket": "TommyInnitsCoke Bucket",
   "entity.youtubersmod.dream": "Dream",
   "item.youtubersmod.yt": "YT"
 }
